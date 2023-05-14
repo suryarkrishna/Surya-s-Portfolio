@@ -456,6 +456,7 @@ img {
   }
   .home__blob, .home__blob-img{
     margin-top: 80px;
+    visiblity:hidden;
   } 
   .about__container {
     grid-template-columns: repeat(2, 1fr);
