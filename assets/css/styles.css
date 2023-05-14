@@ -421,6 +421,7 @@ img {
   }
   .home__img {
     width: 200px;
+    visibility: hidden;
   }
   .work__container {
     grid-template-columns: repeat(3, 1fr);
