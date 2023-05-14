@@ -421,8 +421,10 @@ img {
   }
   .home__img {
     width: 200px;
-    visibility: hidden;
   }
+  .home__blob, .home__blob-img{
+    visibility: hidden;
+  } 
   .work__container {
     grid-template-columns: repeat(3, 1fr);
     column-gap: 2rem;
@@ -435,12 +437,12 @@ img {
     padding: 4rem 0 2rem;
   }
   .home__social {
-    padding-top: 0;
-    padding-bottom: 2.5rem;
+    padding-top: 20px;
+    padding-bottom: 0rem;
     flex-direction: row;
     align-self: flex-end;
     position: absolute;
-    right: 185px;
+    right: 80px;
   }
   .home__social-icon {
     font-size: var(--h2-font-size);
@@ -449,9 +451,12 @@ img {
     margin-right: var(--mb-4);
   }
   .home__img {
-    width: 300px;
+    width: 240px;
     bottom: 25%;
   }
+  .home__blob, .home__blob-img{
+    margin-top: 80px;
+  } 
   .about__container {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
